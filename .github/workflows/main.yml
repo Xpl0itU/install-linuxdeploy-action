@@ -24,3 +24,5 @@ jobs:
           tagging_message: 'ci'
           push_options: '--force'
           create_branch: true
+          status_options: '--untracked-files=all'
+          add_options: '-u'
