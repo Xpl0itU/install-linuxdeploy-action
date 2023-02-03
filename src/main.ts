@@ -87,7 +87,7 @@ const run = async (): Promise<void> => {
             )
             break
           }
-          case 'checkcrt': {
+          case 'checkrt': {
             await install_target(
               'https://github.com/linuxdeploy/linuxdeploy-plugin-checkrt/releases/download/continuous/',
               'linuxdeploy-plugin-checkrt-x86_64.sh',
