@@ -85,6 +85,14 @@ const run = async (): Promise<void> => {
               'linuxdeploy-plugin-ncurses.sh',
               targetdir
             )
+            break
+          }
+          case 'checkcrt': {
+            await install_target(
+              'https://github.com/linuxdeploy/linuxdeploy-plugin-checkrt/releases/download/continuous/',
+              'linuxdeploy-plugin-checkrt-x86_64.sh',
+              targetdir
+            )
           }
         }
       }
