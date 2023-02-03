@@ -1,7 +1,6 @@
 node_modules/
 lib/
 .node-version
-dist/
 
 # Editors
 .vscode/
