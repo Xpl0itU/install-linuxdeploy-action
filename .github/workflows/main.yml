@@ -26,4 +26,3 @@ jobs:
           create_branch: true
           status_options: '--untracked-files=all'
           add_options: '-u'
-          skip_dirty_check: true
