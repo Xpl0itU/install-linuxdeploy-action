@@ -104,7 +104,7 @@ var run = function () { return __awaiter(void 0, void 0, void 0, function () {
                     case 'appimage': return [3 /*break*/, 13];
                     case 'gstreamer': return [3 /*break*/, 15];
                     case 'ncurses': return [3 /*break*/, 17];
-                    case 'checkcrt': return [3 /*break*/, 19];
+                    case 'checkrt': return [3 /*break*/, 19];
                 }
                 return [3 /*break*/, 21];
             case 5: return [4 /*yield*/, install_target('https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/', 'linuxdeploy-plugin-qt-x86_64.AppImage', targetdir)];
